@@ -6,45 +6,5 @@
     text-decoration: none;
 }
 
-nav {
-    background-color: black;
-    height: 6rem;
-    width: 100vw;
-    padding: 5px 0;
-}
-
-nav a {
-    color: white;
-}
-
-.nav__container {
-    width: 95%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav__left{
-    display: flex;
-    align-items: center;
-}
-
-.nav_left__links {
-    padding-left: 3rem;
-    display: flex;
-    gap: 2rem;
-}
-
-.nav__logo{
-    width: 3.5rem;
-    height: auto;
-}
-
-.nav__logo > img {
-    width: 100%;
-    height: auto;
-}
 
 
