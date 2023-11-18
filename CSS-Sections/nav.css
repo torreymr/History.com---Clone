@@ -139,3 +139,13 @@ nav {
         display: block;
     }
 }
+
+@media screen and (max-width: 700px){
+    .nav__container {
+        width: 93%;
+    }
+
+    .nav_right__link {
+        display: none;
+    }
+}
