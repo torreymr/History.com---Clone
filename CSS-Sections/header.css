@@ -137,6 +137,38 @@ header {
     background-image: url(/images/Oak\ Island.jpg);
 }
 
+@media screen and (max-width: 1400px) {
+    .header_block {
+        grid-template-rows: 20rem 15rem;
+    }
 
+    .header__two {
+        height: 35rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    .header__container {
+        width: 95%;
+    }
+    
+    .header {
+        display: grid;
+        grid-template-rows: 60% 40%;
+        grid-template-columns: none;
+    }
+
+
+    .header_text {
+        grid-row: 2; 
+    }
+
+    .header_image__container {
+        grid-row: 1;
+        background-size: cover;
+        background-position: center;
+    }
+}
 
 
