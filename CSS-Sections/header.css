@@ -1,5 +1,6 @@
 header {
     background-color: black;
+    padding-bottom: 3rem;
 }
 
 .header__container {
@@ -69,6 +70,9 @@ header {
 }
 
 .header__card-text {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
     padding: 3rem 2rem;
 }
 
@@ -86,7 +90,30 @@ header {
 }
 
 
+.header__card-tag {
+    background-color: #eb0028;
+    width: fit-content;
+    padding: 0.5rem 0.5rem;
+    border-radius: 7px;
+    font-weight: 700;
+}
 
+.header__card-subtext {
+    color: #b1b1bd;
+}
+
+.header__card-link {
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+    .header__card-text {
+        align-items: center;
+        text-align: center;
+    }
+}
 
 
 
