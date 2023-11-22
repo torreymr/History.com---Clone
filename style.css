@@ -3,6 +3,7 @@
 @import url(/CSS-Sections/header.css);
 @import url(/CSS-Sections/new-episodes.css);
 @import url(/CSS-Sections/sign-up.css);
+@import url(/CSS-Sections/footer.css);
 
 * {
     margin: 0;
