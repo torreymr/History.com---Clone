@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url(/CSS-Sections/nav.css);
 @import url(/CSS-Sections/header.css);
+@import url(/CSS-Sections/new-episodes.css);
 
 * {
     margin: 0;
