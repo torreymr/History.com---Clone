@@ -2,6 +2,7 @@
 @import url(/CSS-Sections/nav.css);
 @import url(/CSS-Sections/header.css);
 @import url(/CSS-Sections/new-episodes.css);
+@import url(/CSS-Sections/sign-up.css);
 
 * {
     margin: 0;
