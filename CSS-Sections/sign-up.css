@@ -1,0 +1,67 @@
+.sign-up {
+    padding: 5rem 0;
+    background-color: #f8f8f8;
+}
+
+.sign-up__container {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.sign-up__title {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.sign-up__subtext {
+    font-weight: 300;
+}
+
+.sign-up form {
+    margin: 1.5rem 0;
+    padding: 1rem 0;
+    display: flex;
+}
+
+.sign-up form input {
+    padding: 1.5rem 1rem;
+    flex: 1;
+    font-size: 1rem;
+    border: none;
+}
+
+.sign-up form button {
+    padding: 0 2rem;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+    text-wrap: nowrap;
+}
+
+.sign-up form button:hover {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.sign-up__links {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.sign-up__links p{
+    font-weight: 600;
+}
+
+.sign-up__links a {
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.sign-up__links a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, .8);
+}
