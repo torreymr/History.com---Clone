@@ -1,2 +1,166 @@
+header {
+    background-color: black;
+}
+
+.header__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 45rem 1fr 45em;
+    row-gap: 1rem;
+    width: 95%;
+    margin: 0 auto;
+    color: white;
+}
+
+.header__card-large {
+    grid-row: span 1;
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1.25fr 3fr;
+}
+
+.header__card__image-container {
+    order: 2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__card__image-container-one {
+    background-image: url(/images/Kennedy.jpg);
+}
+
+.header__card__image-container-two {
+    background-image: url(/images/Mountain-Men.jpg);
+}
+
+
+.header__card-large .header__card-text {
+    background-color: #19171d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.header__card__image {
+    display: none
+}
+
+
+
+
+
+
+.header__card-small {
+   background-color: #19171d;
+}
+
+.card__small-one {
+    margin-right: .5rem;
+}
+
+.card__small-two {
+    margin-left: .5rem;
+}
+
+.header__card-small img {
+    width: 100%;
+}
+
+.header__card-text {
+    padding: 3rem 2rem;
+}
+
+
+
+
+.header__card-two, .header__card-three {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+.header__card-four{
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+
+    .header__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__card__image {
+        display: block;
+        width: 100%;
+    }
+
+    .card__small-one {
+        margin-right: 0;
+    }
+    
+    .card__small-two {
+        margin-left: 0;
+    }
+
+    .header__card-large {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__card-large .header__card-text {
+        order: 2;
+        padding: 3rem 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
