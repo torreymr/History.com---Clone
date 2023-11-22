@@ -1,0 +1,27 @@
+footer {
+    height: 30rem;
+    background-color: lightgrey;
+    margin-bottom: 20rem;
+}
+
+.footer__header{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.footer__head-one {
+    grid-row: span 2;
+}
+
+.footer__head-two {
+    grid-column: span 3;
+}
+
+.footer__head-three {
+    grid-column: span 3;;
+} 
